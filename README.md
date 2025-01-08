@@ -1,6 +1,6 @@
 # Sitebot
 
-<img src="logo.png"
+<img src="images/logo.png"
      alt="Logo"
      width = 100px/>
 
@@ -21,8 +21,8 @@ This project uses AWS services such as Amazon Llama to run conversational models
 
 ## Architecture
 
-<img src="architecture.png"
-     alt="Logo"
+<img src="images/architecture.png"
+     alt="Architecture"
      style="float: center"
      width = 500px/>
 
@@ -132,13 +132,13 @@ Make sure you have an AWS account if not create one. Create a new IAM user as fo
 If you have followed all the steps above Sitebot should be up and running. Below are a few examples of what it looks like and what you will be able to see after using it.
 
 
-<img src="text_output.png"
-     alt="Logo"
+<img src="images/text_output.png"
+     alt="Text output"
      style="float: center"
      width = 800px/>
 
-<img src="image_output.png"
-     alt="Logo"
+<img src="images/image_output.png"
+     alt="Image output"
      style="float: center"
      width = 800px/>
 
