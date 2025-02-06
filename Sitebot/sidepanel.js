@@ -226,36 +226,6 @@ function clearChatHistory() {
   }, 300); // Match this with your CSS transition time
 }
 
-// // Add event listener for the clear chat button
-// document.getElementById('clear-chat-button').addEventListener('click', () => {
-//   // Optional: Add a confirmation dialog
-//   const confirmClear = confirm('Are you sure you want to clear the chat history?');
-  
-//   if (confirmClear) {
-//     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-//       const pageURL = tabs[0].url;
-//       const apiEndpoint = 'https://lnxvdim6a2.execute-api.us-east-1.amazonaws.com/dev/';
-
-//       fetch(apiEndpoint, {
-//         method: 'POST',
-//         headers: {
-//           'Content-Type': 'application/json',
-//         },
-//         body: JSON.stringify({ page_url: pageURL, action: 'delete',  sessionId}),
-//       })
-//       .then(response => response.json())
-//       .then(data => {
-//         console.log(data.message); // Log the result of deletion
-//         clearChatHistory(); // Clear local storage and UI
-//       })
-//       .catch(error => {
-//         console.error('Error:', error);
-//         alert('Failed to clear chat history from the server.');
-//       });
-//     });
-//   }
-// });
-
 
 document.getElementById('clear-chat-button').addEventListener('click', () => {
   // Optional: Add a confirmation dialog
